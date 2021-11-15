@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 const buildDate = new Date().toISOString(); 
-const pageURL = "https://maps.angst-frei.ch";
+const pageURL = "https://animap.angst-frei.ch";
 
 module.exports = {
   mode: 'production',
