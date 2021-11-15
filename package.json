@@ -1,0 +1,45 @@
+{
+  "name": "maps.angst-frei.ch",
+  "version": "1.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production && cp CNAME docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.1.2",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.0.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "npm-check-updates": "",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "datatables.net": "^1.11.3",
+    "datatables.net-dt": "^1.11.3",
+    "jquery": "^3.6.0",
+    "jquery-csv": "^1.0.21",
+    "leaflet": "^1.7.1",
+    "leaflet-control-geocoder": "^2.3.0",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "leaflet-fullscreen": "^1.0.2",
+    "leaflet-providers": "github:leaflet-extras/leaflet-providers",
+    "leaflet.locatecontrol": "^0.74.1",
+    "leaflet.markercluster": "^1.5.3",
+    "leaflet.markercluster.layersupport": "^2.0.1",
+    "papaparse": "^5.3.1"
+  }
+}
