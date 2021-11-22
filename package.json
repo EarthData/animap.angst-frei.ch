@@ -1,12 +1,12 @@
 {
   "name": "animap.angst-frei.ch",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production && cp CNAME docs"
+    "build": "webpack --mode production && cp CNAME docs && cp -r csv docs"
   },
   "keywords": [],
   "author": "",
